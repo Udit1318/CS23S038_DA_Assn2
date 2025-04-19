@@ -79,7 +79,7 @@ def predict():
     print('Test Accuracy: %d %%' % (100 * correct / total))
 
 if __name__ == "__main__":
-    wandb.init(project="DL-Assignment-2", entity="cs23s036")
+    wandb.init(project="DL-Assignment-2", entity="cs23s038-iit-madras")
     predict()
 
 
